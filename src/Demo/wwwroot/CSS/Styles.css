@@ -3,15 +3,37 @@
     background-image: url('../images/hero.jpg');
     min-height: 450px;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
     .page-img .hero
         {
             text-align: center;
             vertical-align: middle;
-           background-color: rgba(255, 255, 255, 0.44);
+            background-color: rgba(255, 255, 255, 0.44);
         }
     .page-img .hero h1, .page-img .hero p
         {
             color:#ffffff;
         }
  
+.header {
+    padding-top: 100px;
+    text-align:center;
+}
+
+.row {
+    padding-top: 60px;
+}
+
+#console img{
+    width: 100%;
+}
+
+#pretty img {
+    width: 100%;
+}
+
+#webscraper img {
+    width: 100%;
+}

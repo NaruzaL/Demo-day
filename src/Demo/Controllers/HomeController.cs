@@ -18,6 +18,11 @@ namespace Demo.Controllers
             return View();
         }
 
+        public IActionResult Python()
+        {
+            return View();
+        }
+
         public IActionResult Products()
         {
             return View(db.Products.ToList());
