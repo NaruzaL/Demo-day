@@ -5,5 +5,10 @@
 
 @model IEnumerable<Demo.Models.Product>
 <div class="container">
-
+    @foreach(var card in Model)
+    {
+        <h1>@Html.DisplayFor(model=> card.brand)</h1>
+        <h3>@Html.DisplayFor(model=> card.product_name)</h3>
+        <h3>@Html.DisplayFor(model=> card.shipping)</h3>
+    }
 </div>
