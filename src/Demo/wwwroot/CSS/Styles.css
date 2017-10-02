@@ -1,0 +1,17 @@
+﻿.page-img {
+    margin-top: 63px;
+    background-image: url('../images/hero.jpg');
+    min-height: 450px;
+    width: 100%;
+}
+    .page-img .hero
+        {
+            text-align: center;
+            vertical-align: middle;
+           background-color: rgba(255, 255, 255, 0.44);
+        }
+    .page-img .hero h1, .page-img .hero p
+        {
+            color:#ffffff;
+        }
+ 
