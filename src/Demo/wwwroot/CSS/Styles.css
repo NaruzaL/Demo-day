@@ -1,4 +1,7 @@
-﻿.page-img {
+﻿.card {
+    height: 195px;
+}
+.page-img {
     margin-top: 63px;
     background-image: url('../images/hero.jpg');
     min-height: 450px;

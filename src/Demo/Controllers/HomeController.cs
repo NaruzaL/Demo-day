@@ -27,5 +27,6 @@ namespace Demo.Controllers
         {
             return View(db.Products.ToList());
         }
+
     }
 }
