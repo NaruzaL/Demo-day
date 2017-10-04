@@ -1,10 +1,7 @@
 ﻿.card {
     height: 195px;
 }
-th {
-    background-color: rgba(79, 172, 239, 0.83);
-    color: white;
-}
+
 .page-img {
     margin-top: 63px;
     background-image: url('../images/hero.jpg');
@@ -44,4 +41,3 @@ th {
 #webscraper img {
     width: 100%;
 }
-
