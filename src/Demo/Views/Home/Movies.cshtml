@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Demo day webscraper";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<Demo.Models.Movie>
+<div class="container">
+    <div class="row" style="overflow-x:auto;">
+        <table class="table">
+            <tr>
+                <th>Title</th>
+                <th>Weekend</th>
+                <th>Gross</th>
+                <th>Weeks</th>
+            </tr>
+            @foreach (var thing in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(model => thing.Title)</td>
+                    <td>@Html.DisplayFor(model => thing.Weekend)</td>
+                    <td>@Html.DisplayFor(model => thing.Gross)</td>
+                    <td>@Html.DisplayFor(model => thing.Weeks)</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

@@ -10,6 +10,7 @@ namespace Demo.Models
     public class VideocardDbContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
+        public DbSet<Movie> Movies { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder Options)
         {

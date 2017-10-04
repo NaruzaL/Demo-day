@@ -28,5 +28,9 @@ namespace Demo.Controllers
             return View(db.Products.ToList());
         }
 
+        public IActionResult Movies()
+        {
+            return View(db.Movies.ToList());
+        }
     }
 }
